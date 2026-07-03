@@ -1,0 +1,25 @@
+# Maven
+target/
+*.jar
+*.war
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.eclipse
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Spring Boot / Logs
+*.log
+application-local.properties
+
+# Oracle Wallet (NO subir a Git — contiene credenciales)
+src/main/resources/wallet/
